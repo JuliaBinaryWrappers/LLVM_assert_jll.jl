@@ -1,10 +1,15 @@
 name = "LLVM_assert_jll"
 uuid = "1a4ff6f1-5156-5f9a-8aa5-a2840611f610"
-version = "9.0.1+0"
+version = "11.0.0+0"
 
 [deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+libLLVM_assert_jll = "393490a8-41a6-5dea-8ab1-81a396b80891"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
+JLLWrappers = "1.1.0"
 julia = "1.0"
+libLLVM_assert_jll = "=11.0.0"
