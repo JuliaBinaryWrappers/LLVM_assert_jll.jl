@@ -11,7 +11,7 @@ function __init__()
     JLLWrappers.@init_library_product(
         liblto,
         "lib/libLTO.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_executable_product(
