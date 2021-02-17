@@ -1,6 +1,6 @@
 name = "LLVM_assert_jll"
 uuid = "1a4ff6f1-5156-5f9a-8aa5-a2840611f610"
-version = "11.0.1+1"
+version = "11.0.1+2"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
