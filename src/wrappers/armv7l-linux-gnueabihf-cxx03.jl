@@ -3,7 +3,7 @@ export liblto, llc, llvm_mca, opt
 
 using libLLVM_assert_jll
 JLLWrappers.@generate_wrapper_header("LLVM_assert")
-JLLWrappers.@declare_library_product(liblto, "libLTO.so.11jl")
+JLLWrappers.@declare_library_product(liblto, "libLTO.so.12jl")
 JLLWrappers.@declare_executable_product(llc)
 JLLWrappers.@declare_executable_product(llvm_mca)
 JLLWrappers.@declare_executable_product(opt)
